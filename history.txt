@@ -1,0 +1,31 @@
+  1   git clone git@github.com:kt23-hub/_4Project_HW12.git
+  2   git checkout -b feature
+  3   cd _4Project_HW12
+  4   git checkout -b feature
+  5   git branch
+  6   git log --graph --oneline --all --decorate
+  7   git log --all 
+  8   git log --all  --oneline
+  9   nano README.md
+  10  nano .gitignore
+  11  git add README.md .gitignore
+  12  git commit -m "update README and gitignore"
+  13  git status
+  14  git log --all  --oneline
+  15  git log --graph --oneline --all --decorate
+  16  git push origin feature
+  17  git commit --amend -m "update README and gitignore ammend"
+  18  git push --force origin feature
+  19  ls -al
+  20  git log --all  --oneline
+  21  git log --graph --oneline --all --decorate
+  22  git checkout main
+  23  git merge feature 
+  24  git log --graph --oneline --all --decorate
+  25  git log --all  --oneline
+  26  git checkout feature
+  27  git log --all  --oneline
+  28  git log --graph --oneline --all --decorate
+  29  git checkout main
+  30  git push origin main
+  31  history > history.txt
